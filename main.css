@@ -13,7 +13,7 @@
         align-items: center;
         width: 100%;
         height: 100vh;
-        background: linear-gradient(-45deg, #695fba, #a88fe6, #695fba);
+        background: linear-gradient(-45deg, #5fb7ba, #8fe3e6, #5fbab2);
         overflow: hidden;
     }
 
@@ -26,6 +26,12 @@
     }
 
     .text{
+        position: absolute;
+        top: 20%;
+        left: 15%;
+    }
+
+    .password{
         position: absolute;
         top: 20%;
         left: 15%;
@@ -51,7 +57,7 @@
     }
 
     .btn:hover {
-        background-color: #dedeed;
+        background-color: #dedee7;
     }
 
     .fab {
@@ -121,7 +127,7 @@
         height: 50px;
         text-transform: uppercase;
         letter-spacing: 2px;
-        background: linear-gradient(90deg, #a88fe6, #695fba);
+        background: linear-gradient(90deg, #8fb0e6, #5fa5ba);
         border: none;
         border-radius: 5px;
         padding: 10px 40px;
